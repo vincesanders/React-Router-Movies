@@ -20,8 +20,8 @@ const App = () => {
           <Movie addToSavedList={addToSavedList}/>
         </Route>
         <Route exact path='/'>
-        <MovieList />
-      </Route>
+          <MovieList />
+        </Route>
       </Switch> 
     </div>
   );
